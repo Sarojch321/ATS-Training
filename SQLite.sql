@@ -22,6 +22,8 @@ create table Author
 INSERT INTO Author
 VALUES (null, 'Yaswant kenetkar', 'kathmandu', '98264646736', 'Male', 'MSc CS')
 
+select * from Author
+
 create table Publication
 (
     Id Integer PRIMARY KEY AUTOINCREMENT,
