@@ -1,4 +1,6 @@
 -- SQLite
+
+--Insert Publication data
 insert into Publication
 VALUES
 (
@@ -22,6 +24,7 @@ VALUES
 
 select * from Publication
 
+--Insert Author details
 
 insert into Author
 VALUES
@@ -80,6 +83,7 @@ VALUES
 
 SELECT * from Author
 
+--Insert Book details
 
 INSERT INTO Book
 VALUES
