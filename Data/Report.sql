@@ -9,7 +9,7 @@
     JOIN Publication p on p.ID = b.PublicationId
 
 -- 3.1 Get all books which are published in last 30 years
-    SELECT * FROM Book b WHERE b.PublishDate >=  strftime('%Y', 'now') - 100;
+    SELECT * FROM Book b WHERE b.PublishDate >=  strftime('%Y', 'now') - 30;
 
 -- 3.2 Get total price of books written by parijat
     SELECT SUM(b.Price) AS Total_Price FROM Book b JOIN
